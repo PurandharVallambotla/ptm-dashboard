@@ -1,0 +1,9 @@
+# Never commit real secrets
+.streamlit/secrets.toml
+
+# SQLite database (contains live student/parent data — don't publish it)
+school_ptm.db
+
+__pycache__/
+*.pyc
+.venv/
